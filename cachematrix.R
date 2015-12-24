@@ -1,9 +1,9 @@
 ## Put comments here that give an overall description of what your
-## functions do
+## functions do:
 ## These functions are used to create a special object that 
 ## stores a matrix and caches its inverse
 
-## Write a short comment describing this function
+## Write a short comment describing this function:
 ## The function creates the object that stores matrix and caches its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Write a short comment describing this function:
 ## Thus function calculates the inverse of our matrix. If it already exists the
 ## function retrieve it from the cache. If the matrix is not invertible the function
 ## returns the message "matrix is not invertable".
